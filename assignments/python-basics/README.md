@@ -1,54 +1,34 @@
-
 # 📘 Assignment: Python Basics
 
 ## 🎯 Objective
 
-Practice fundamental Python programming skills including user input, string formatting, arithmetic operations, and conditional statements by implementing simple functions.
+Practice core Python fundamentals by writing small functions that use user input, formatted output, arithmetic, and conditional logic.
 
 ## 📝 Tasks
 
-### 🛠️ User Input and String Formatting
+### 🛠️	Build Input and Output Functions
 
 #### Description
-Write a function called `welcome_message()` that interacts with the user and returns a formatted welcome message.
+Create functions that collect input from a user and present results in a clear, formatted way.
 
 #### Requirements
 Completed program should:
 
-- Ask the user for their name, age, and favorite color using `input()`.
-- Return a welcome message formatted as:
-  `Hello, [name]! You are [age] years old and your favorite color is [color].`
-- Example output:
-  `Hello, Alice! You are 25 years old and your favorite color is blue.`
+- Create a function `welcome_message()` that asks for name, age, and favorite color.
+- Return a formatted string: `Hello, [name]! You are [age] years old and your favorite color is [color].`
+- Create a function `add_two_numbers()` that asks for two numeric inputs and prints their sum.
+- Show at least one example run for both functions.
 
-### 🛠️ Basic Arithmetic
+
+### 🛠️	Use Conditional Logic
 
 #### Description
-Write a function called `add_two_numbers()` that prompts the user for two numbers and prints their sum.
+Write a function that uses conditionals to evaluate numeric input.
 
 #### Requirements
 Completed program should:
 
-- Ask the user to enter two numbers.
-- Add the numbers together.
-- Print the result. Example:
-  Enter the first number: 3
-  Enter the second number: 7
-  10
-
-### 🛠️ Conditional Statements
-
-#### Description
-Write a function called `is_even()` that checks if a number is even.
-
-#### Requirements
-Completed program should:
-
-- Take a single integer argument.
-- Return `True` if the number is even, and `False` if it is odd.
-- Example usage:
-  ```python
-  print(is_even(4))  # True
-  print(is_even(5))  # False
-  ```
+- Create a function `is_even(number)` that accepts one integer argument.
+- Return `True` when the number is even and `False` when it is odd.
+- Demonstrate the function with at least two test values (one even and one odd).
 
